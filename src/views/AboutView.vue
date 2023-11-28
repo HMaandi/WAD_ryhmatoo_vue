@@ -1,5 +1,22 @@
+
+import FooterComp from '@/components/FooterComp.vue';
+
+
+import HeaderComp from '@/components/HeaderComp.vue';
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <HeaderComp/>
+  <div  class="form">
+    <SignupForm/>
   </div>
+  <FooterComp/>
 </template>
+<script>
+  import SignupForm from "@/components/SignupForm.vue"
+  import HeaderComp from "@/components/HeaderComp.vue"
+  import FooterComp from "@/components/FooterComp.vue";
+  export default {
+  name: 'AboutView',
+  components: {SignupForm, HeaderComp, FooterComp}
+}
+</script>

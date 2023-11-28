@@ -29,7 +29,6 @@ nav a.router-link-exact-active {
 }
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 header {
@@ -141,6 +140,7 @@ footer {
     background-color: rgb(169, 169, 169);
     border-radius: 10px;
     margin-top: 5px;
+    bottom: 0px;
 }
 #dropdown-content{
     position: absolute;
@@ -154,4 +154,47 @@ footer {
     padding: 10px;
     
 }
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(169, 169, 169);
+}
+.signup-form {
+      background-color: rgb(233, 232, 188);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+    .signup-form label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .signup-form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .signup-form button {
+      background-color: #3253e9;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .signup-form button:hover {
+      background-color: #656865;
+    }
 </style>
