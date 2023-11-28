@@ -142,6 +142,9 @@ footer {
     margin-top: 5px;
     bottom: 0px;
 }
+footer > p{
+    color: #ccc;
+}
 #dropdown-content{
     position: absolute;
     width: 15vw;

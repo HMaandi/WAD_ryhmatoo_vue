@@ -1,5 +1,7 @@
 <template>
-<footer></footer>
+<footer>
+    <p>>Copyright © 2023 group AT</p>
+</footer>
 </template>
     
 <script>
